@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSI Advising - University of Michigan</title>
+    <title>Advising Services - University of Michigan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,14 +20,16 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
-            margin-right: 15px;
+            margin-right: 20px;
         }
         nav ul li a {
             color: white;
             text-decoration: none;
+            font-size: 18px;
         }
         main {
             padding: 20px;
@@ -44,9 +46,6 @@
             bottom: 0;
             width: 100%;
         }
-        .services, .contact-info, .resources {
-            margin-bottom: 30px;
-        }
         .button {
             background-color: #FFCB05;
             border: none;
@@ -61,56 +60,68 @@
     </style>
 </head>
 <body>
-    <a href="#">Skip to Main Content</a>
+    <!-- Skip to Main Content Link -->
+    <a href="#main-content" style="position: absolute; top: 0; left: 0; padding: 10px; background-color: #FFCB05; color: #00274C;">Skip to Main Content</a>
 
+    <!-- Header -->
     <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="advising.html">Advising Services</a></li>
-                <li><a href="appointments.html">Make an Appointment</a></li>
-                <li><a href="resources.html">Student Resources</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="Food_Pantry.html">Food Pantry</a></li>
+                <li><a href="Tutoring.html">Tutoring</a></li>
+                <li><a href="Advising.html">Advising</a></li>
             </ul>
         </nav>
-        <h1>Master of Science in Information (MSI) Advising</h1>
+        <h1>University of Michigan Advising Services</h1>
     </header>
 
-    <main>
-        <section class="services">
-            <h2>Advising Services</h2>
-            <p>The MSI Advising team is here to support you throughout your academic journey at the University of Michigan School of Information (UMSI). Whether you need help planning your courses, exploring career options, or addressing any challenges, we are here to assist you.</p>
-            <ul>
-                <li>Course Planning</li>
-                <li>Career Advising</li>
-                <li>Academic Resources</li>
-                <li>Personalized Support</li>
-            </ul>
-            <a href="appointments.html" class="button">Schedule an Appointment</a>
+    <!-- Main Content -->
+    <main id="main-content">
+        <section>
+            <h2>About Advising Services</h2>
+            <p>Our advising team is here to support you throughout your academic journey at the University of Michigan. Whether you need help selecting courses, planning your career, or accessing additional academic resources, we are available to assist you every step of the way.</p>
         </section>
 
-        <section class="resources">
-            <h2>Student Resources</h2>
-            <p>We offer a wide range of resources to help you succeed during your time in the MSI program:</p>
+        <!-- Advising Services Section -->
+        <section>
+            <h2>Advising Services We Offer</h2>
+            <p>Our advisors are here to help you with:</p>
             <ul>
-                <li><a href="curriculum.html">Curriculum Guide</a></li>
-                <li><a href="career-services.html">Career Services</a></li>
-                <li><a href="library-resources.html">UMSI Library Resources</a></li>
-                <li><a href="writing-center.html">Writing Center</a></li>
+                <li>Course Selection and Planning</li>
+                <li>Career Exploration and Guidance</li>
+                <li>Academic Support Resources</li>
+                <li>Graduate School Preparation</li>
+                <li>Personalized Advising Sessions</li>
+            </ul>
+            <a href="https://www.si.umich.edu/student-experience/career-development/career-coaching" class="button">Schedule an Advising Appointment</a>
+        </section>
+
+        <!-- Resources Section -->
+        <section>
+            <h2>Academic Resources</h2>
+            <p>We provide access to a variety of academic resources to ensure your success:</p>
+            <ul>
+                <li>Curriculum Guide</a></li>
+                <li>Career Services</a></li>
+                <li>Writing Center</a></li>
+                <li>Library Resources</a></li>
             </ul>
         </section>
 
+        <!-- Contact Information Section -->
         <section class="contact-info">
             <h2>Contact Us</h2>
-            <p>If you have any questions or need assistance, feel free to reach out to the MSI Advising team:</p>
-            <p>Email: <a href="mailto:msiadvising@umich.edu">msiadvising@umich.edu</a></p>
+            <p>If you have any questions or need additional support, feel free to reach out to our advising team:</p>
+            <p>Email: <a href="mailto:advising@umich.edu">advising@umich.edu</a></p>
             <p>Phone: (734) 123-4567</p>
-            <a href="contact.html" class="button">Contact Form</a>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>University of Michigan | School of Information | MSI Advising Services | © 2024</p>
+        <p>University of Michigan | Advising Services | © 2024</p>
     </footer>
 </body>
 </html>
