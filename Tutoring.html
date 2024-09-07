@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UMich Tutoring</title>
+    <title>Tutoring Services - University of Michigan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
         }
         header {
             background-color: #00274C;
@@ -20,14 +20,16 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            text-align: center;
         }
         nav ul li {
             display: inline;
-            margin-right: 15px;
+            margin-right: 20px;
         }
         nav ul li a {
             color: white;
             text-decoration: none;
+            font-size: 18px;
         }
         main {
             padding: 20px;
@@ -40,12 +42,9 @@
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
-            width: 100%;
+            position: relative;
             bottom: 0;
-        }
-        .services, .contact-info, .resources {
-            margin-bottom: 30px;
+            width: 100%;
         }
         .button {
             background-color: #FFCB05;
@@ -61,53 +60,64 @@
     </style>
 </head>
 <body>
-    <a href="#">Skip to Main Content</a>
+    <!-- Skip to Main Content Link -->
+    <a href="#main-content" style="position: absolute; top: 0; left: 0; padding: 10px; background-color: #FFCB05; color: #00274C;">Skip to Main Content</a>
 
+    <!-- Header -->
     <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="tutoring.html">Tutoring Services</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="Food_Pantry.html">Food Pantry</a></li>
+                <li><a href="Tutoring.html">Tutoring</a></li>
+                <li><a href="Advising.html">Advising</a></li>
             </ul>
         </nav>
         <h1>University of Michigan Tutoring Services</h1>
     </header>
 
-    <main>
-        <section class="services">
-            <h2>Our Tutoring Services</h2>
-            <p>At the University of Michigan, we are committed to helping students succeed academically. We offer free tutoring services in a variety of subjects, including:</p>
-            <ul>
-                <li>Mathematics</li>
-                <li>Science (Biology, Chemistry, Physics)</li>
-                <li>Computer Science</li>
-                <li>Writing and Communication</li>
-                <li>Economics</li>
-            </ul>
-            <a href="signup.html" class="button">Sign Up for Tutoring</a>
+    <!-- Main Content -->
+    <main id="main-content">
+        <section>
+            <h2>About Tutoring Services</h2>
+            <p>The University of Michigan offers a range of tutoring services to help students succeed academically. Whether you need help with math, science, writing, or any other subject, we are here to support you.</p>
         </section>
 
-        <section class="resources">
-            <h2>Study Resources</h2>
-            <p>Looking for additional help? Check out our collection of resources to assist you in your studies:</p>
+        <!-- Tutoring Options Section -->
+        <section>
+            <h2>Tutoring Options</h2>
+            <p>We offer both one-on-one and group tutoring sessions to meet your learning needs:</p>
             <ul>
-                <li><a href="math-resources.html">Math Resources</a></li>
-                <li><a href="writing-resources.html">Writing Resources</a></li>
-                <li><a href="science-resources.html">Science Resources</a></li>
+                <li>One-on-One Tutoring</li>
+                <li>Group Study Sessions</li>
+                <li>Subject-Specific Tutoring (Math, Science, Writing, etc.)</li>
+                <li>Online and In-Person Options</li>
+            </ul>
+            <a href="https://www.si.umich.edu/about-umsi/events" class="button">Sign Up for Tutoring</a>
+        </section>
+
+        <!-- Resources Section -->
+        <section>
+            <h2>Additional Resources</h2>
+            <p>Check out our other resources to help you succeed academically:</p>
+            <ul>
+                <li><a href="https://www.si.umich.edu/student-experience/academic-success/umsi-student-care-report-and-student-support-resources">UMSI STudent Care Report</a></li>
+                <li><a href="https://www.si.umich.edu/student-experience/academic-success/about-academic-programs-and-student-life-team">UMSI Academic Programs and Student Life Team</a></li>
+                <li><a href="https://www.si.umich.edu/student-experience/academic-success/about-academic-programs-and-student-life-teaml">APSL Team</a></li>
             </ul>
         </section>
 
+        <!-- Contact Information Section -->
         <section class="contact-info">
             <h2>Contact Us</h2>
-            <p>If you have any questions about our tutoring services or would like to become a tutor, feel free to contact us:</p>
+            <p>If you have any questions or need additional information, feel free to reach out:</p>
             <p>Email: <a href="mailto:tutoring@umich.edu">tutoring@umich.edu</a></p>
             <p>Phone: (734) 123-4567</p>
-            <a href="contact.html" class="button">Contact Form</a>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>University of Michigan | Tutoring Services | © 2024</p>
     </footer>
