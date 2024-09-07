@@ -4,51 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Pantry - University of Michigan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #00274C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #00274C;
+        }
+        footer {
+            background-color: #00274C;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #FFCB05;
+            border: none;
+            padding: 10px 15px;
+            color: #00274C;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #FFB800;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <a href="#">Skip to Main Content</a>
+    <!-- Skip to Main Content Link -->
+    <a href="#main-content" style="position: absolute; top: 0; left: 0; padding: 10px; background-color: #FFCB05; color: #00274C;">Skip to Main Content</a>
+
+    <!-- Header -->
     <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Food_Pantry.html">Food Pantry</a></li>
+                <li><a href="Tutoring.html">Tutoring</a></li>
+                <li><a href="Advising.html">Advising</a></li>
             </ul>
         </nav>
         <h1>University of Michigan Food Pantry</h1>
     </header>
-    <main>
-        <div>
-            <p>The University of Michigan Food Pantry is dedicated to supporting students facing food insecurity by providing access to nutritious and balanced meals. Our mission is to ensure that no student has to choose between their education and their next meal.</p>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <section>
+            <h2>Welcome to the U-M Food Pantry</h2>
+            <p>Our mission is to provide students in need with access to nutritious food and resources that support their well-being. We are dedicated to ensuring that no student goes hungry while pursuing their education at the University of Michigan.</p>
+        </section>
+
+        <!-- Image -->
+        <div class="image-container">
+            <img src="https://pbs.twimg.com/media/GJCOXQBacAAmNsW.jpg:large" alt="Food Pantry Image">
         </div>
 
-        <div>
+        <!-- Services Section -->
+        <section>
             <h2>Our Services</h2>
-            <p>We offer a variety of services to help students, including:</p>
+            <p>The U-M Food Pantry offers a range of services for students facing food insecurity:</p>
             <ul>
-                <li>Weekly food distributions</li>
-                <li>Fresh produce and pantry staples</li>
-                <li>On-campus pickup locations</li>
-                <li>Nutrition workshops and resources</li>
+                <li>Weekly distributions of pantry staples and fresh produce</li>
+                <li>Meal kits for students in emergency situations</li>
+                <li>Nutrition guidance and meal planning resources</li>
+                <li>Special workshops on food budgeting and healthy eating</li>
             </ul>
-        </div>
+            <a href="https://mbc.studentlife.umich.edu/" class="button">Learn More About Our Services</a>
+        </section>
 
-        <div>
-            <h2>How to Access the Pantry</h2>
-            <p>Students can access the Food Pantry by filling out a simple registration form. After registering, you will receive further details about available pickup times and locations.</p>
-            <a href="register.html">Register Now</a>
-        </div>
-
-        <div>
-            <h2>Get Involved</h2>
-            <p>If you'd like to volunteer or donate, we welcome your support! Help us make a difference in our campus community.</p>
-            <a href="volunteer.html">Volunteer</a>
-            <a href="donate.html">Donate</a>
-        </div>
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you need assistance or have questions, feel free to reach out:</p>
+            <p>Email: <a href="mailto:foodpantry@umich.edu">foodpantry@umich.edu</a></p>
+            <p>Phone: (734) 123-4567</p>
+            <p>Location: Michigan Union, Room 1234</p>
+        </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <p>University of Michigan Food Pantry | <a href="https://mbc.studentlife.umich.edu/">Learn More</a></p>
+        <p>University of Michigan Food Pantry | © 2024 | <a href="https://mbc.studentlife.umich.edu/" style="color: white;">Learn More</a></p>
     </footer>
 </body>
 </html>
